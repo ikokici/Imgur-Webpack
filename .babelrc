@@ -1,0 +1,17 @@
+{
+  "comments": false,
+  "plugins": ["syntax-dynamic-import", "styled-components"],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 3 versions"]
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "react",
+    "stage-2"
+  ]
+}
